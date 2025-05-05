@@ -55,8 +55,16 @@ h1 {
   background: linear-gradient(to right, #e3f2fd, #ffffff);
 }
 
-.dark-professional-preview {
-  background: linear-gradient(to right, #263238, #37474f);
+.lavender-purple-preview {
+  background: linear-gradient(to right, #9575cd, #ce93d8);
+}
+
+.ruby-red-preview {
+  background: linear-gradient(to right, #e53935, #ffcdd2);
+}
+
+.teal-turquoise-preview {
+  background: linear-gradient(to right, #0097a7, #80deea);
 }
 
 .ocean-blue-preview {
@@ -73,10 +81,6 @@ h1 {
 
 .sakura-pink-preview {
   background: linear-gradient(to right, #ffccbc, #ff8a80);
-}
-
-.dark-pink-preview {
-  background: linear-gradient(to right, #121212, #c2185b);
 }
 
 .theme-card h3 {

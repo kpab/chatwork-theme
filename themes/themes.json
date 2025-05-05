@@ -14,6 +14,45 @@
       }
     },
     {
+      "id": "lavender-purple",
+      "name": "Lavender Purple",
+      "description": "ラベンダー紫",
+      "colors": {
+        "primary": "#9575cd",
+        "secondary": "#ce93d8",
+        "background": "#f3e5f5",
+        "text": "#333333",
+        "sidebar": "#ede7f6",
+        "border": "#b39ddb"
+      }
+    },
+    {
+      "id": "ruby-red",
+      "name": "Ruby Red",
+      "description": "ルビー赤",
+      "colors": {
+        "primary": "#e53935",
+        "secondary": "#f05545",
+        "background": "#ffebee",
+        "text": "#333333",
+        "sidebar": "#ffcdd2",
+        "border": "#ef9a9a"
+      }
+    },
+    {
+      "id": "teal-turquoise",
+      "name": "Teal Turquoise",
+      "description": "ティールグリーン",
+      "colors": {
+        "primary": "#0097a7",
+        "secondary": "#18a5b5",
+        "background": "#e0f7fa",
+        "text": "#333333",
+        "sidebar": "#b2ebf2",
+        "border": "#80deea"
+      }
+    },
+    {
       "id": "ocean-blue",
       "name": "Ocean Blue",
       "description": "青基調",

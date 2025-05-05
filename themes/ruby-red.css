@@ -1,17 +1,17 @@
-/* Warm Comfort Theme - Fixed for actual Chatwork DOM structure */
-.chatwork-theme-warm-comfort {
-  --primary-color: #f57c00;
-  --secondary-color: #ffb74d;
-  --background-color: #fff3e0;
+/* Ruby Red Theme - Fixed for actual Chatwork DOM structure */
+.chatwork-theme-ruby-red {
+  --primary-color: #e53935;
+  --secondary-color: #f05545;
+  --background-color: #ffebee;
   --text-color: #333333;
-  --sidebar-color: #fff8f0;
-  --border-color: #ffcc80;
-  --hover-color: #ffe0b2;
-  --message-self-color: #fff3e0;
+  --sidebar-color: #ffcdd2;
+  --border-color: #ef9a9a;
+  --hover-color: #ffcdd2;
+  --message-self-color: #ffebee;
 }
 
 /* Global styles */
-.chatwork-theme-warm-comfort body {
+.chatwork-theme-ruby-red body {
   background-color: var(--background-color) !important;
   color: var(--text-color) !important;
 }
@@ -19,89 +19,89 @@
 /* ヘッダーエリアはデフォルトのまま */
 
 /* サイドバー全体 */
-.chatwork-theme-warm-comfort #_sideContent {
+.chatwork-theme-ruby-red #_sideContent {
   background-color: var(--sidebar-color) !important;
   border-right: 1px solid var(--border-color) !important;
 }
 
 /* チャットリストエリア */
-.chatwork-theme-warm-comfort #_roomListArea {
+.chatwork-theme-ruby-red #_roomListArea {
   background-color: var(--sidebar-color) !important;
 }
 
-.chatwork-theme-warm-comfort #RoomList {
+.chatwork-theme-ruby-red #RoomList {
   background-color: var(--sidebar-color) !important;
 }
 
 /* チャットリストの各項目 */
-.chatwork-theme-warm-comfort li[role="tab"] {
+.chatwork-theme-ruby-red li[role="tab"] {
   color: var(--text-color) !important;
 }
 
-.chatwork-theme-warm-comfort li[role="tab"]:hover {
+.chatwork-theme-ruby-red li[role="tab"]:hover {
   background-color: var(--hover-color) !important;
 }
 
-.chatwork-theme-warm-comfort li[role="tab"][aria-selected="true"] {
+.chatwork-theme-ruby-red li[role="tab"][aria-selected="true"] {
   background-color: var(--primary-color) !important;
 }
 
-.chatwork-theme-warm-comfort li[role="tab"][aria-selected="true"] p {
+.chatwork-theme-ruby-red li[role="tab"][aria-selected="true"] p {
   color: #ffffff !important;
 }
 
 /* チャットリストのテキスト */
-.chatwork-theme-warm-comfort .sc-bwjutS.sc-ddcbSj.izTrMP {
+.chatwork-theme-ruby-red .sc-bwjutS.sc-ddcbSj.izTrMP {
   color: var(--text-color) !important;
 }
 
-.chatwork-theme-warm-comfort [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
+.chatwork-theme-ruby-red [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
   color: #ffffff !important;
 }
 
 /* メインコンテンツエリア */
-.chatwork-theme-warm-comfort #_mainContent {
+.chatwork-theme-ruby-red #_mainContent {
   background-color: var(--background-color) !important;
 }
 
 /* チャットエリア */
-.chatwork-theme-warm-comfort #_chatContent {
+.chatwork-theme-ruby-red #_chatContent {
   background-color: #ffffff !important;
   border: 1px solid var(--border-color) !important;
   border-radius: 8px !important;
 }
 
 /* メッセージエリア */
-.chatwork-theme-warm-comfort #_timeLine {
+.chatwork-theme-ruby-red #_timeLine {
   background-color: #ffffff !important;
 }
 
 /* メッセージ本体 */
-.chatwork-theme-warm-comfort .sc-euWMRQ._message {
+.chatwork-theme-ruby-red .sc-euWMRQ._message {
   color: var(--text-color) !important;
 }
 
-.chatwork-theme-warm-comfort .sc-euWMRQ._message:hover {
-  background-color: #fff9f2 !important;
+.chatwork-theme-ruby-red .sc-euWMRQ._message:hover {
+  background-color: #fff5f5 !important;
 }
 
 /* ユーザー名 */
-.chatwork-theme-warm-comfort .sc-cDltVh.iyFcJG {
+.chatwork-theme-ruby-red .sc-cDltVh.iyFcJG {
   color: var(--text-color) !important;
 }
 
 /* メッセージテキスト */
-.chatwork-theme-warm-comfort .sc-blKGMR {
+.chatwork-theme-ruby-red .sc-blKGMR {
   color: var(--text-color) !important;
 }
 
 /* メッセージ入力エリア */
-.chatwork-theme-warm-comfort #_chatSendArea {
+.chatwork-theme-ruby-red #_chatSendArea {
   background-color: var(--background-color) !important;
   border-top: 1px solid var(--border-color) !important;
 }
 
-.chatwork-theme-warm-comfort #_chatText {
+.chatwork-theme-ruby-red #_chatText {
   border: 1px solid var(--border-color) !important;
   border-radius: 4px !important;
   background-color: #ffffff !important;
@@ -109,61 +109,61 @@
 }
 
 /* 送信ボタン */
-.chatwork-theme-warm-comfort .sc-kbousE {
+.chatwork-theme-ruby-red .sc-kbousE {
   background-color: var(--primary-color) !important;
   color: #ffffff !important;
   border: none !important;
   border-radius: 4px !important;
 }
 
-.chatwork-theme-warm-comfort .sc-kbousE:hover {
-  background-color: #ef6c00 !important;
+.chatwork-theme-ruby-red .sc-kbousE:hover {
+  background-color: #d32f2f !important;
 }
 
 /* リンク */
-.chatwork-theme-warm-comfort a {
+.chatwork-theme-ruby-red a {
   color: var(--primary-color) !important;
 }
 
 /* infoボックス */
-.chatwork-theme-warm-comfort .chatInfo {
-  background-color: #fff3e0 !important;
+.chatwork-theme-ruby-red .chatInfo {
+  background-color: #fff5f5 !important;
   border-left: 3px solid var(--primary-color) !important;
 }
 
-.chatwork-theme-warm-comfort .chatInfo .sc-dhKdcB {
-  background-color: #ffe0b2 !important;
+.chatwork-theme-ruby-red .chatInfo .sc-dhKdcB {
+  background-color: #ffcdd2 !important;
 }
 
 /* アイコン */
-.chatwork-theme-warm-comfort svg {
+.chatwork-theme-ruby-red svg {
   fill: var(--text-color) !important;
 }
 
 /* 選択されたチャットタブのアイコン */
-.chatwork-theme-warm-comfort [aria-selected="true"] svg {
+.chatwork-theme-ruby-red [aria-selected="true"] svg {
   fill: #ffffff !important;
 }
 
 /* スクロールバー */
-.chatwork-theme-warm-comfort ::-webkit-scrollbar {
+.chatwork-theme-ruby-red ::-webkit-scrollbar {
   width: 6px !important;
 }
 
-.chatwork-theme-warm-comfort ::-webkit-scrollbar-track {
+.chatwork-theme-ruby-red ::-webkit-scrollbar-track {
   background: var(--background-color) !important;
 }
 
-.chatwork-theme-warm-comfort ::-webkit-scrollbar-thumb {
-  background: #ffb74d !important;
+.chatwork-theme-ruby-red ::-webkit-scrollbar-thumb {
+  background: #ef9a9a !important;
   border-radius: 3px !important;
 }
 
-.chatwork-theme-warm-comfort ::-webkit-scrollbar-thumb:hover {
-  background: #ffa726 !important;
+.chatwork-theme-ruby-red ::-webkit-scrollbar-thumb:hover {
+  background: #e53935 !important;
 }
 
 /* コンテナ */
-.chatwork-theme-warm-comfort #_roomListArea .roomListWithSwitch {
+.chatwork-theme-ruby-red #_roomListArea .roomListWithSwitch {
   background-color: var(--sidebar-color) !important;
 }
