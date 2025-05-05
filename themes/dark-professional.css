@@ -1,0 +1,228 @@
+/* Dark Professional Theme - Fixed for actual Chatwork DOM structure */
+.chatwork-theme-dark-professional {
+  --primary-color: #1976d2;
+  --secondary-color: #37474f;
+  --background-color: #263238;
+  --text-color: #ffffff;
+  --light-text-color: #e8eaf6;
+  --sidebar-color: #1a2327;
+  --border-color: #455a64;
+  --hover-color: #324148;
+  --message-self-color: #283137;
+}
+
+/* Global styles */
+.chatwork-theme-dark-professional body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* ヘッダーエリア */
+.chatwork-theme-dark-professional .sc-empnci {
+  background-color: var(--sidebar-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-dark-professional #_logo {
+  filter: invert(1) !important;
+}
+
+.chatwork-theme-dark-professional .sc-kFWlue {
+  background-color: #324148 !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional .sc-kFWlue::placeholder {
+  color: #adb5bd !important;
+}
+
+/* ヘッダーのアイコンと文字 */
+.chatwork-theme-dark-professional .sc-ePDLzJ {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional .sc-imWYAI {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional .sc-fUBkdm {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional .sc-BQMaI .sc-epqpcT {
+  border: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-dark-professional .sc-cspYLC {
+  color: var(--text-color) !important;
+}
+
+/* サイドバー全体 */
+.chatwork-theme-dark-professional #_sideContent {
+  background-color: var(--sidebar-color) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+/* チャットリストエリア */
+.chatwork-theme-dark-professional #_roomListArea {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-dark-professional #RoomList {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* チャットリストの各項目 */
+.chatwork-theme-dark-professional li[role="tab"] {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional li[role="tab"]:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-dark-professional li[role="tab"][aria-selected="true"] {
+  background-color: var(--primary-color) !important;
+}
+
+.chatwork-theme-dark-professional li[role="tab"][aria-selected="true"] p {
+  color: #ffffff !important;
+}
+
+/* チャットリストのテキスト */
+.chatwork-theme-dark-professional .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: #ffffff !important;
+}
+
+/* メインコンテンツエリア */
+.chatwork-theme-dark-professional #_mainContent {
+  background-color: var(--background-color) !important;
+}
+
+/* チャットエリア */
+.chatwork-theme-dark-professional #_chatContent {
+  background-color: #324148 !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+/* メッセージエリア */
+.chatwork-theme-dark-professional #_timeLine {
+  background-color: #324148 !important;
+}
+
+/* メッセージ本体 */
+.chatwork-theme-dark-professional .sc-euWMRQ._message {
+  color: var(--text-color) !important;
+  border-bottom: 1px solid #3a4750 !important;
+}
+
+.chatwork-theme-dark-professional .sc-euWMRQ._message:hover {
+  background-color: #384248 !important;
+}
+
+/* ユーザー名 */
+.chatwork-theme-dark-professional .sc-cDltVh.iyFcJG {
+  color: var(--light-text-color) !important;
+}
+
+/* メッセージテキスト */
+.chatwork-theme-dark-professional .sc-blKGMR {
+  color: var(--text-color) !important;
+}
+
+/* メッセージ入力エリア */
+.chatwork-theme-dark-professional #_chatSendArea {
+  background-color: var(--sidebar-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-dark-professional #_chatText {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  background-color: #324148 !important;
+  color: var(--text-color) !important;
+}
+
+/* 送信ボタン */
+.chatwork-theme-dark-professional .sc-kbousE {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.chatwork-theme-dark-professional .sc-kbousE:hover {
+  background-color: #1565c0 !important;
+}
+
+/* リンク */
+.chatwork-theme-dark-professional a {
+  color: #64b5f6 !important;
+}
+
+.chatwork-theme-dark-professional a:hover {
+  color: #90caf9 !important;
+}
+
+/* infoボックス */
+.chatwork-theme-dark-professional .chatInfo {
+  background-color: #283137 !important;
+  border-left: 3px solid var(--primary-color) !important;
+}
+
+.chatwork-theme-dark-professional .chatInfo .sc-dhKdcB {
+  background-color: #37474f !important;
+}
+
+/* アイコン */
+.chatwork-theme-dark-professional svg {
+  fill: var(--text-color) !important;
+}
+
+/* 選択されたチャットタブのアイコン */
+.chatwork-theme-dark-professional [aria-selected="true"] svg {
+  fill: #ffffff !important;
+}
+
+/* スクロールバー */
+.chatwork-theme-dark-professional ::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.chatwork-theme-dark-professional ::-webkit-scrollbar-track {
+  background: var(--background-color) !important;
+}
+
+.chatwork-theme-dark-professional ::-webkit-scrollbar-thumb {
+  background: #546e7a !important;
+  border-radius: 3px !important;
+}
+
+.chatwork-theme-dark-professional ::-webkit-scrollbar-thumb:hover {
+  background: #607d8b !important;
+}
+
+/* 日付セパレーター */
+.chatwork-theme-dark-professional .sc-iUwfNp {
+  color: #78909c !important;
+}
+
+/* ホバーとボタンスタイル */
+.chatwork-theme-dark-professional button {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-dark-professional button:hover {
+  background-color: #384248 !important;
+}
+
+/* コンテナ */
+.chatwork-theme-dark-professional #_roomListArea .roomListWithSwitch {
+  background-color: var(--sidebar-color) !important;
+}

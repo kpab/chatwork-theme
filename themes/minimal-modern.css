@@ -1,0 +1,204 @@
+/* Minimal Modern Theme - Fixed for actual Chatwork DOM structure */
+.chatwork-theme-minimal-modern {
+  --primary-color: #4a86e8;
+  --secondary-color: #f0f7ff;
+  --background-color: #f8f9fa;
+  --text-color: #333333;
+  --sidebar-color: #ffffff;
+  --border-color: #e0e0e0;
+  --hover-color: #f5f7f9;
+  --message-self-color: #f7f9ff;
+}
+
+/* Global styles */
+.chatwork-theme-minimal-modern body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* ヘッダーエリア */
+.chatwork-theme-minimal-modern .sc-empnci {
+  background-color: var(--sidebar-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-kFWlue {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-kFWlue::placeholder {
+  color: #9e9e9e !important;
+}
+
+/* ヘッダーのアイコンと文字 */
+.chatwork-theme-minimal-modern .sc-ePDLzJ {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-imWYAI {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-fUBkdm {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-BQMaI .sc-epqpcT {
+  border: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-cspYLC {
+  color: var(--text-color) !important;
+}
+
+/* サイドバー全体 */
+.chatwork-theme-minimal-modern #_sideContent {
+  background-color: var(--sidebar-color) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+/* チャットリストエリア */
+.chatwork-theme-minimal-modern #_roomListArea {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-minimal-modern #RoomList {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* チャットリストの各項目 */
+.chatwork-theme-minimal-modern li[role="tab"] {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern li[role="tab"]:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-minimal-modern li[role="tab"][aria-selected="true"] {
+  background-color: var(--primary-color) !important;
+}
+
+.chatwork-theme-minimal-modern li[role="tab"][aria-selected="true"] p {
+  color: #ffffff !important;
+}
+
+/* チャットリストのテキスト */
+.chatwork-theme-minimal-modern .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: #ffffff !important;
+}
+
+/* メインコンテンツエリア */
+.chatwork-theme-minimal-modern #_mainContent {
+  background-color: var(--background-color) !important;
+}
+
+/* チャットエリア */
+.chatwork-theme-minimal-modern #_chatContent {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+/* メッセージエリア */
+.chatwork-theme-minimal-modern #_timeLine {
+  background-color: #ffffff !important;
+}
+
+/* メッセージ本体 */
+.chatwork-theme-minimal-modern .sc-euWMRQ._message {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-minimal-modern .sc-euWMRQ._message:hover {
+  background-color: var(--hover-color) !important;
+}
+
+/* ユーザー名 */
+.chatwork-theme-minimal-modern .sc-cDltVh.iyFcJG {
+  color: var(--text-color) !important;
+}
+
+/* メッセージテキスト */
+.chatwork-theme-minimal-modern .sc-blKGMR {
+  color: var(--text-color) !important;
+}
+
+/* メッセージ入力エリア */
+.chatwork-theme-minimal-modern #_chatSendArea {
+  background-color: var(--background-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-minimal-modern #_chatText {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  color: var(--text-color) !important;
+}
+
+/* 送信ボタン */
+.chatwork-theme-minimal-modern .sc-kbousE {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.chatwork-theme-minimal-modern .sc-kbousE:hover {
+  background-color: #3a76d8 !important;
+}
+
+/* リンク */
+.chatwork-theme-minimal-modern a {
+  color: var(--primary-color) !important;
+}
+
+/* infoボックス */
+.chatwork-theme-minimal-modern .chatInfo {
+  background-color: #f7f9ff !important;
+  border-left: 3px solid var(--primary-color) !important;
+}
+
+.chatwork-theme-minimal-modern .chatInfo .sc-dhKdcB {
+  background-color: #f0f7ff !important;
+}
+
+/* アイコン */
+.chatwork-theme-minimal-modern svg {
+  fill: var(--text-color) !important;
+}
+
+/* 選択されたチャットタブのアイコン */
+.chatwork-theme-minimal-modern [aria-selected="true"] svg {
+  fill: #ffffff !important;
+}
+
+/* スクロールバー */
+.chatwork-theme-minimal-modern ::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.chatwork-theme-minimal-modern ::-webkit-scrollbar-track {
+  background: var(--background-color) !important;
+}
+
+.chatwork-theme-minimal-modern ::-webkit-scrollbar-thumb {
+  background: #c4c4c4 !important;
+  border-radius: 3px !important;
+}
+
+.chatwork-theme-minimal-modern ::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8 !important;
+}
+
+/* コンテナ */
+.chatwork-theme-minimal-modern #_roomListArea .roomListWithSwitch {
+  background-color: var(--sidebar-color) !important;
+}

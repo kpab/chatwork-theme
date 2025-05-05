@@ -1,0 +1,204 @@
+/* Ocean Blue Theme - Fixed for actual Chatwork DOM structure */
+.chatwork-theme-ocean-blue {
+  --primary-color: #0288d1;
+  --secondary-color: #03a9f4;
+  --background-color: #e3f2fd;
+  --text-color: #333333;
+  --sidebar-color: #f8fbff;
+  --border-color: #90caf9;
+  --hover-color: #bbdefb;
+  --message-self-color: #e1f5fe;
+}
+
+/* Global styles */
+.chatwork-theme-ocean-blue body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* ヘッダーエリア */
+.chatwork-theme-ocean-blue .sc-empnci {
+  background-color: var(--sidebar-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-kFWlue {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-kFWlue::placeholder {
+  color: #90a4ae !important;
+}
+
+/* ヘッダーのアイコンと文字 */
+.chatwork-theme-ocean-blue .sc-ePDLzJ {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-imWYAI {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-fUBkdm {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-BQMaI .sc-epqpcT {
+  border: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-cspYLC {
+  color: var(--text-color) !important;
+}
+
+/* サイドバー全体 */
+.chatwork-theme-ocean-blue #_sideContent {
+  background-color: var(--sidebar-color) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+/* チャットリストエリア */
+.chatwork-theme-ocean-blue #_roomListArea {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-ocean-blue #RoomList {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* チャットリストの各項目 */
+.chatwork-theme-ocean-blue li[role="tab"] {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue li[role="tab"]:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-ocean-blue li[role="tab"][aria-selected="true"] {
+  background-color: var(--primary-color) !important;
+}
+
+.chatwork-theme-ocean-blue li[role="tab"][aria-selected="true"] p {
+  color: #ffffff !important;
+}
+
+/* チャットリストのテキスト */
+.chatwork-theme-ocean-blue .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: #ffffff !important;
+}
+
+/* メインコンテンツエリア */
+.chatwork-theme-ocean-blue #_mainContent {
+  background-color: var(--background-color) !important;
+}
+
+/* チャットエリア */
+.chatwork-theme-ocean-blue #_chatContent {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+/* メッセージエリア */
+.chatwork-theme-ocean-blue #_timeLine {
+  background-color: #ffffff !important;
+}
+
+/* メッセージ本体 */
+.chatwork-theme-ocean-blue .sc-euWMRQ._message {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-euWMRQ._message:hover {
+  background-color: #f0f9fe !important;
+}
+
+/* ユーザー名 */
+.chatwork-theme-ocean-blue .sc-cDltVh.iyFcJG {
+  color: var(--text-color) !important;
+}
+
+/* メッセージテキスト */
+.chatwork-theme-ocean-blue .sc-blKGMR {
+  color: var(--text-color) !important;
+}
+
+/* メッセージ入力エリア */
+.chatwork-theme-ocean-blue #_chatSendArea {
+  background-color: var(--background-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-ocean-blue #_chatText {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  color: var(--text-color) !important;
+}
+
+/* 送信ボタン */
+.chatwork-theme-ocean-blue .sc-kbousE {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.chatwork-theme-ocean-blue .sc-kbousE:hover {
+  background-color: #0277bd !important;
+}
+
+/* リンク */
+.chatwork-theme-ocean-blue a {
+  color: var(--primary-color) !important;
+}
+
+/* infoボックス */
+.chatwork-theme-ocean-blue .chatInfo {
+  background-color: #e1f5fe !important;
+  border-left: 3px solid var(--primary-color) !important;
+}
+
+.chatwork-theme-ocean-blue .chatInfo .sc-dhKdcB {
+  background-color: #bbdefb !important;
+}
+
+/* アイコン */
+.chatwork-theme-ocean-blue svg {
+  fill: var(--text-color) !important;
+}
+
+/* 選択されたチャットタブのアイコン */
+.chatwork-theme-ocean-blue [aria-selected="true"] svg {
+  fill: #ffffff !important;
+}
+
+/* スクロールバー */
+.chatwork-theme-ocean-blue ::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.chatwork-theme-ocean-blue ::-webkit-scrollbar-track {
+  background: var(--background-color) !important;
+}
+
+.chatwork-theme-ocean-blue ::-webkit-scrollbar-thumb {
+  background: #64b5f6 !important;
+  border-radius: 3px !important;
+}
+
+.chatwork-theme-ocean-blue ::-webkit-scrollbar-thumb:hover {
+  background: #42a5f5 !important;
+}
+
+/* コンテナ */
+.chatwork-theme-ocean-blue #_roomListArea .roomListWithSwitch {
+  background-color: var(--sidebar-color) !important;
+}

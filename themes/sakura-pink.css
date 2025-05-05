@@ -1,0 +1,204 @@
+/* Sakura Pink Theme - Fixed for actual Chatwork DOM structure */
+.chatwork-theme-sakura-pink {
+  --primary-color: #f06292;
+  --secondary-color: #f8bbd0;
+  --background-color: #fce4ec;
+  --text-color: #333333;
+  --sidebar-color: #fff1f5;
+  --border-color: #f8bbd0;
+  --hover-color: #fdf6f7;
+  --message-self-color: #fdf6f7;
+}
+
+/* Global styles */
+.chatwork-theme-sakura-pink body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* ヘッダーエリア */
+.chatwork-theme-sakura-pink .sc-empnci {
+  background-color: var(--sidebar-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-kFWlue {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-kFWlue::placeholder {
+  color: #a1887f !important;
+}
+
+/* ヘッダーのアイコンと文字 */
+.chatwork-theme-sakura-pink .sc-ePDLzJ {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-imWYAI {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-fUBkdm {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-BQMaI .sc-epqpcT {
+  border: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-cspYLC {
+  color: var(--text-color) !important;
+}
+
+/* サイドバー全体 */
+.chatwork-theme-sakura-pink #_sideContent {
+  background-color: var(--sidebar-color) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+/* チャットリストエリア */
+.chatwork-theme-sakura-pink #_roomListArea {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-sakura-pink #RoomList {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* チャットリストの各項目 */
+.chatwork-theme-sakura-pink li[role="tab"] {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink li[role="tab"]:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-sakura-pink li[role="tab"][aria-selected="true"] {
+  background-color: var(--primary-color) !important;
+}
+
+.chatwork-theme-sakura-pink li[role="tab"][aria-selected="true"] p {
+  color: #ffffff !important;
+}
+
+/* チャットリストのテキスト */
+.chatwork-theme-sakura-pink .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: #ffffff !important;
+}
+
+/* メインコンテンツエリア */
+.chatwork-theme-sakura-pink #_mainContent {
+  background-color: var(--background-color) !important;
+}
+
+/* チャットエリア */
+.chatwork-theme-sakura-pink #_chatContent {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+/* メッセージエリア */
+.chatwork-theme-sakura-pink #_timeLine {
+  background-color: #ffffff !important;
+}
+
+/* メッセージ本体 */
+.chatwork-theme-sakura-pink .sc-euWMRQ._message {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-euWMRQ._message:hover {
+  background-color: #fef1f4 !important;
+}
+
+/* ユーザー名 */
+.chatwork-theme-sakura-pink .sc-cDltVh.iyFcJG {
+  color: var(--text-color) !important;
+}
+
+/* メッセージテキスト */
+.chatwork-theme-sakura-pink .sc-blKGMR {
+  color: var(--text-color) !important;
+}
+
+/* メッセージ入力エリア */
+.chatwork-theme-sakura-pink #_chatSendArea {
+  background-color: var(--background-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-sakura-pink #_chatText {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  color: var(--text-color) !important;
+}
+
+/* 送信ボタン */
+.chatwork-theme-sakura-pink .sc-kbousE {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.chatwork-theme-sakura-pink .sc-kbousE:hover {
+  background-color: #ec407a !important;
+}
+
+/* リンク */
+.chatwork-theme-sakura-pink a {
+  color: var(--primary-color) !important;
+}
+
+/* infoボックス */
+.chatwork-theme-sakura-pink .chatInfo {
+  background-color: #fdf6f7 !important;
+  border-left: 3px solid var(--primary-color) !important;
+}
+
+.chatwork-theme-sakura-pink .chatInfo .sc-dhKdcB {
+  background-color: #f8bbd0 !important;
+}
+
+/* アイコン */
+.chatwork-theme-sakura-pink svg {
+  fill: var(--text-color) !important;
+}
+
+/* 選択されたチャットタブのアイコン */
+.chatwork-theme-sakura-pink [aria-selected="true"] svg {
+  fill: #ffffff !important;
+}
+
+/* スクロールバー */
+.chatwork-theme-sakura-pink ::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.chatwork-theme-sakura-pink ::-webkit-scrollbar-track {
+  background: var(--background-color) !important;
+}
+
+.chatwork-theme-sakura-pink ::-webkit-scrollbar-thumb {
+  background: #f8a5c2 !important;
+  border-radius: 3px !important;
+}
+
+.chatwork-theme-sakura-pink ::-webkit-scrollbar-thumb:hover {
+  background: #f48fb1 !important;
+}
+
+/* コンテナ */
+.chatwork-theme-sakura-pink #_roomListArea .roomListWithSwitch {
+  background-color: var(--sidebar-color) !important;
+}

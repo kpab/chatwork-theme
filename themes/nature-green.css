@@ -1,0 +1,173 @@
+/* Nature Green Theme - Fixed for actual Chatwork DOM structure */
+.chatwork-theme-nature-green {
+  --primary-color: #388e3c;
+  --secondary-color: #66bb6a;
+  --background-color: #e8f5e9;
+  --text-color: #333333;
+  --sidebar-color: #f1f8f4;
+  --border-color: #a5d6a7;
+  --message-hover-color: #f0f9f0;
+  --message-self-color: #dcedc8;
+}
+
+/* Global styles */
+.chatwork-theme-nature-green body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* サイドバー全体 */
+.chatwork-theme-nature-green #_sideContent {
+  background-color: var(--sidebar-color) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+/* チャットリストエリア */
+.chatwork-theme-nature-green #_roomListArea {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-nature-green #RoomList {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* チャットリストの各項目 */
+.chatwork-theme-nature-green li[role="tab"] {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-nature-green li[role="tab"]:hover {
+  background-color: #c8e6c9 !important;
+}
+
+.chatwork-theme-nature-green li[role="tab"][aria-selected="true"] {
+  background-color: var(--primary-color) !important;
+}
+
+.chatwork-theme-nature-green li[role="tab"][aria-selected="true"] p {
+  color: #ffffff !important;
+}
+
+/* チャットリストのテキスト */
+.chatwork-theme-nature-green .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-nature-green [aria-selected="true"] .sc-bwjutS.sc-ddcbSj.izTrMP {
+  color: #ffffff !important;
+}
+
+/* メインコンテンツエリア */
+.chatwork-theme-nature-green #_mainContent {
+  background-color: var(--background-color) !important;
+}
+
+/* チャットエリア */
+.chatwork-theme-nature-green #_chatContent {
+  background-color: #ffffff !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+/* メッセージエリア */
+.chatwork-theme-nature-green #_timeLine {
+  background-color: #ffffff !important;
+}
+
+/* メッセージ本体 */
+.chatwork-theme-nature-green .sc-euWMRQ._message {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-nature-green .sc-euWMRQ._message:hover {
+  background-color: var(--message-hover-color) !important;
+}
+
+/* ユーザー名 */
+.chatwork-theme-nature-green .sc-cDltVh.iyFcJG {
+  color: var(--text-color) !important;
+}
+
+/* メッセージテキスト */
+.chatwork-theme-nature-green .sc-blKGMR {
+  color: var(--text-color) !important;
+}
+
+/* メッセージ入力エリア */
+.chatwork-theme-nature-green #_chatSendArea {
+  background-color: var(--background-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.chatwork-theme-nature-green #_chatText {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  color: var(--text-color) !important;
+}
+
+/* 送信ボタン */
+.chatwork-theme-nature-green .sc-kbousE {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.chatwork-theme-nature-green .sc-kbousE:hover {
+  background-color: #2e7d32 !important;
+}
+
+/* リンク */
+.chatwork-theme-nature-green a {
+  color: var(--primary-color) !important;
+}
+
+/* infoボックス */
+.chatwork-theme-nature-green .chatInfo {
+  background-color: #e8f5e9 !important;
+  border-left: 3px solid var(--primary-color) !important;
+}
+
+.chatwork-theme-nature-green .chatInfo .sc-dhKdcB {
+  background-color: #c8e6c9 !important;
+}
+
+/* アイコン */
+.chatwork-theme-nature-green svg {
+  fill: var(--text-color) !important;
+}
+
+/* 選択されたチャットタブのアイコン */
+.chatwork-theme-nature-green [aria-selected="true"] svg {
+  fill: #ffffff !important;
+}
+
+/* スクロールバー */
+.chatwork-theme-nature-green ::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.chatwork-theme-nature-green ::-webkit-scrollbar-track {
+  background: var(--background-color) !important;
+}
+
+.chatwork-theme-nature-green ::-webkit-scrollbar-thumb {
+  background: #81c784 !important;
+  border-radius: 3px !important;
+}
+
+.chatwork-theme-nature-green ::-webkit-scrollbar-thumb:hover {
+  background: #66bb6a !important;
+}
+
+/* ヘッダーエリア（もし存在すれば） */
+.chatwork-theme-nature-green #_headerBar {
+  background-color: var(--sidebar-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* 補完的なセレクタ */
+.chatwork-theme-nature-green #_roomListArea .roomListWithSwitch {
+  background-color: var(--sidebar-color) !important;
+}
