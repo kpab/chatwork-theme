@@ -16,10 +16,24 @@
   color: var(--text-color) !important;
 }
 
-/* ヘッダーエリア */
+/* ヘッダーエリア全体 */
 .chatwork-theme-ocean-blue .sc-empnci {
   background-color: var(--sidebar-color) !important;
   border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* ロゴエリア */
+.chatwork-theme-ocean-blue .sc-bdOgaJ {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* 検索エリア */
+.chatwork-theme-ocean-blue .sc-fThUAz {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-iLsKjm {
+  background-color: #ffffff !important;
 }
 
 .chatwork-theme-ocean-blue .sc-kFWlue {
@@ -30,6 +44,11 @@
 
 .chatwork-theme-ocean-blue .sc-kFWlue::placeholder {
   color: #90a4ae !important;
+}
+
+/* ヘッダーの右側 */
+.chatwork-theme-ocean-blue .sc-SrznA {
+  background-color: var(--sidebar-color) !important;
 }
 
 /* ヘッダーのアイコンと文字 */
@@ -45,12 +64,46 @@
   color: var(--text-color) !important;
 }
 
+/* ボタンとホバー効果 */
+.chatwork-theme-ocean-blue .sc-bvgPty {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-bvgPty:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-fKWMtX {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-fKWMtX:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-bfhvDw {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-bfhvDw:hover {
+  background-color: var(--hover-color) !important;
+}
+
+/* ユーザープロフィールエリア */
+.chatwork-theme-ocean-blue .sc-BQMaI {
+  background-color: var(--sidebar-color) !important;
+}
+
 .chatwork-theme-ocean-blue .sc-BQMaI .sc-epqpcT {
   border: 1px solid var(--border-color) !important;
 }
 
 .chatwork-theme-ocean-blue .sc-cspYLC {
   color: var(--text-color) !important;
+}
+
+.chatwork-theme-ocean-blue .sc-dwalKd .sc-imWYAI {
+  fill: var(--text-color) !important;
 }
 
 /* サイドバー全体 */

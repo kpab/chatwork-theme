@@ -18,8 +18,27 @@
 
 /* ヘッダーエリア */
 .chatwork-theme-minimal-modern .sc-empnci {
-  background-color: var(--sidebar-color) !important;
+  background-color: #e8eef7 !important;
   border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* ヘッダーの検索エリア */
+.chatwork-theme-minimal-modern .sc-fThUAz {
+  background-color: #e8eef7 !important;
+}
+
+/* ヘッダーの右側エリア */ 
+.chatwork-theme-minimal-modern .sc-SrznA {
+  background-color: #e8eef7 !important;
+}
+
+/* ヘッダーの各部分 */
+.chatwork-theme-minimal-modern .sc-bdOgaJ {
+  background-color: #e8eef7 !important;
+}
+
+.chatwork-theme-minimal-modern .sc-BQMaI {
+  background-color: #e8eef7 !important;
 }
 
 .chatwork-theme-minimal-modern .sc-kFWlue {

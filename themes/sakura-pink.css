@@ -16,10 +16,24 @@
   color: var(--text-color) !important;
 }
 
-/* ヘッダーエリア */
+/* ヘッダーエリア全体 */
 .chatwork-theme-sakura-pink .sc-empnci {
   background-color: var(--sidebar-color) !important;
   border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* ロゴエリア */
+.chatwork-theme-sakura-pink .sc-bdOgaJ {
+  background-color: var(--sidebar-color) !important;
+}
+
+/* 検索エリア */
+.chatwork-theme-sakura-pink .sc-fThUAz {
+  background-color: var(--sidebar-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-iLsKjm {
+  background-color: #ffffff !important;
 }
 
 .chatwork-theme-sakura-pink .sc-kFWlue {
@@ -30,6 +44,11 @@
 
 .chatwork-theme-sakura-pink .sc-kFWlue::placeholder {
   color: #a1887f !important;
+}
+
+/* ヘッダーの右側 */
+.chatwork-theme-sakura-pink .sc-SrznA {
+  background-color: var(--sidebar-color) !important;
 }
 
 /* ヘッダーのアイコンと文字 */
@@ -45,12 +64,46 @@
   color: var(--text-color) !important;
 }
 
+/* ボタンとホバー効果 */
+.chatwork-theme-sakura-pink .sc-bvgPty {
+  fill: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-bvgPty:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-fKWMtX {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-fKWMtX:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-bfhvDw {
+  color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-bfhvDw:hover {
+  background-color: var(--hover-color) !important;
+}
+
+/* ユーザープロフィールエリア */
+.chatwork-theme-sakura-pink .sc-BQMaI {
+  background-color: var(--sidebar-color) !important;
+}
+
 .chatwork-theme-sakura-pink .sc-BQMaI .sc-epqpcT {
   border: 1px solid var(--border-color) !important;
 }
 
 .chatwork-theme-sakura-pink .sc-cspYLC {
   color: var(--text-color) !important;
+}
+
+.chatwork-theme-sakura-pink .sc-dwalKd .sc-imWYAI {
+  fill: var(--text-color) !important;
 }
 
 /* サイドバー全体 */
