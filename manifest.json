@@ -23,14 +23,11 @@
       "run_at": "document_start"
     }
   ],
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage"],
   "host_permissions": ["*://*.chatwork.com/*"],
   "web_accessible_resources": [
     {
-      "resources": [
-        "themes/*.css",
-        "themes/*.json"
-      ],
+      "resources": ["themes/*.css", "themes/*.json"],
       "matches": ["*://*.chatwork.com/*"]
     }
   ]
